@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="index.css">
+   <title>Document</title>
+</head>
+<body>
+   <div class="content">
+      <div class="search">
+         <div class="name">
+            <label for="name-input">姓氏:</label>
+            <input type="text" id="name-input">
+         </div>
+
+         <div class="age">
+            <label for="age-input">age:</label>
+            <input type="text" id="age-input">
+         </div>
+         <div class="sex">
+            sex:
+            <ul id="sex-selected">
+               <li>male</li>
+               <li>female</li>
+            </ul>
+         </div>
+         <input type="submit" class="submit">
+      </div> 
+      <div class="list">
+         <ul class="list-box">
+            
+         </ul>
+      </div>      
+   </div>
+
+
+
+   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+   <script src="index.js"></script>
+</body>
+</html>

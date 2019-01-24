@@ -1,0 +1,63 @@
+html, body, div, ul, li, input, label {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+input {
+   width: 50px;
+   vertical-align: center;
+}
+
+body {
+   height: 100vh;
+   width: 100vw;
+}
+
+.content {
+   margin: 100px auto;
+   width: 400px;
+   border: 1px solid black;
+}
+
+.search { 
+   font-size: 18px;
+   color: blue;
+   background: #ccc;
+   padding: 10px;
+}
+
+.search div {
+   display: inline-block;
+}
+
+.search .sex ul {
+   display: inline-block;
+   height: 20px;
+}
+
+.search .sex ul li {
+   display: inline-block;
+   background: #e3e3e3;
+   cursor: pointer;
+}
+
+.list {
+   
+}
+
+.list-box {
+   margin: 20px;
+}
+
+.list-box li {
+   height: 40px;
+   line-height: 40px;
+   font-size: 20px;
+   color: orange;
+   border-bottom: 1px solid black;
+}
+
+.list-box li:hover {
+   background: #004f9f;
+}
